@@ -48,7 +48,7 @@ export default function Home() {
   
   );
   return (
-    <main className="bg-gray-900 w-screen h-screen p-2">
+    <main className="bg-gray-900 w-screen h-[95vh] sm:h-screen p-2">
       <div ref={mapContainer} className="w-full h-full rounded-lg" ></div>
       <Legend/>
     </main>
