@@ -5,7 +5,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 
 function Legend() {
   return (
-    <div className="bg-white p-4 rounded-md shadow-md absolute left-6 top-6 z-10 text-black">
+    <div className="bg-white p-4 rounded-md shadow-md absolute left-6 top-24 z-10 text-black">
       <h4 className="font-bold mb-2">Legend</h4>
       <div className="flex items-center mb-2">
         <div className="w-4 h-4 mr-2 bg-red-500"></div>
@@ -48,7 +48,7 @@ export default function Home() {
   
   );
   return (
-    <main className="bg-gray-900 w-screen h-[95vh] sm:h-screen p-2">
+    <main className="bg-gray-900 w-screen h-[94vh]">
       <div ref={mapContainer} className="w-full h-full rounded-lg" ></div>
       <Legend/>
     </main>
