@@ -3,7 +3,7 @@ export default function info () {
     return <div className="mx-auto max-w-3xl m-6">
             <section className="p-6 bg-gray-600 mb-6 rounded-md">
                 <h2 className="text-2xl font-bold mb-4">Firewood Permit Information</h2>
-                <p className="mb-4">Reference the official Forest Service Website and Map for the latest information, <a className="underline hover:text-blue-500" target="_blank" href="https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd716958.pdf">https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd716958.pdf</a></p>
+                <p className="mb-4">Reference the official Forest Service Website and Map for the latest information, <a className="underline hover:text-blue-500" target="_blank" href="https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd716958.pdf">https://www.fs.usda.gov/</a></p>
                 <p className="mb-4">
                     It is your responsibility to fill out your firewood permit properly. Failure to do so violates the terms and conditions of your permit and may result in fines, penalties, and further prosecution.
                 </p>
