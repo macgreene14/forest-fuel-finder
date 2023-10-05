@@ -71,7 +71,7 @@ export default function Home() {
 
   );
   return (
-    <main className="bg-gray-900 w-screen h-[92vh] p-6">
+    <main className="bg-gray-900 w-screen h-[90vh] sm:p-6">
       <div ref={mapContainer} className="w-full h-full rounded-lg" ></div>
       {/* <LogCam map={map}/> */}
     </main>
