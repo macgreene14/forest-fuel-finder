@@ -47,7 +47,7 @@ export default function Home() {
     const legendItems = [
       {
         title: "Boundary",
-        tailwind: "w-4 h-4 mr-2 bg-black border-2 border-solid border-black", 
+        tailwind: "w-4 h-4 mr-2 bg-white border-2 border-solid border-black", 
         css: ""
 
       },
@@ -58,8 +58,8 @@ export default function Home() {
       },
       {
         title: "Private",
-        tailwind: "w-4 h-4 mr-2 bg-white border-2 border-solid border-black", 
-        css: "background-image:repeating-linear-gradient(-45deg, transparent, transparent 2px, #ffffff 2px, #ffffff 5px)"
+        tailwind: "w-4 h-4 mr-2 bg-black border-2 border-solid border-black", 
+        css: "background-image: repeating-linear-gradient(-45deg, transparent, transparent 2px, #ffffff 2px, #ffffff 5px)"
 
       },
     ];
