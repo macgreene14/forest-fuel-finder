@@ -30,11 +30,11 @@ export default function info () {
             <section className="p-6 bg-gray-600 mb-6 rounded-md">
             <h2 className="text-2xl font-bold mb-4">Fire Prevention Safety Tips</h2>
                 <ol>
-                    <li>Keep your saw away from cigarettes or open flames when adjusting or fueling.</li>
-                    <li>Allow your saw to cool for at least 5 minutes before refueling.</li>
-                    <li>Use a safety can for gasoline, and ensure no spillage.</li>
-                    <li>Move the saw away from the fueling spot and ensure it`&apos;`s clean from oil and sawdust before starting.</li>
-                    <li>Keep an 8-ounce fire extinguisher and a size “0” or larger shovel within reach in the cutting area.</li>
+                <li className="mb-2">Keep your saw away from cigarettes or open flames when adjusting or fueling.</li>
+                <li className="mb-2">Allow your saw to cool for at least 5 minutes before refueling.</li>
+                <li className="mb-2">Use a safety can for gasoline, and ensure no spillage.</li>
+                <li className="mb-2">Move the saw away from the fueling spot and ensure it`&apos;`s clean from oil and sawdust before starting.</li>
+                <li className="mb-2">Keep an 8-ounce fire extinguisher and a size “0” or larger shovel within reach in the cutting area.</li>
                 </ol>
                 <p className="mb-4"><strong>Report Fires to:</strong> Bozeman Interagency Fire Dispatch Office (406)624-3830</p>
             </section>
