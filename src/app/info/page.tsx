@@ -29,20 +29,20 @@ export default function info () {
             </section>
             <section className="p-6 bg-gray-600 mb-6 rounded-md">
             <h2 className="text-2xl font-bold mb-4">Fire Prevention Safety Tips</h2>
-                <ol>
+            <ul className="list-disc pl-5">
                 <li className="mb-2">Keep your saw away from cigarettes or open flames when adjusting or fueling.</li>
                 <li className="mb-2">Allow your saw to cool for at least 5 minutes before refueling.</li>
                 <li className="mb-2">Use a safety can for gasoline, and ensure no spillage.</li>
-                <li className="mb-2">Move the saw away from the fueling spot and ensure it`&apos;`s clean from oil and sawdust before starting.</li>
+                <li className="mb-2">Move the saw away from the fueling spot and ensure it&apos;s clean from oil and sawdust before starting.</li>
                 <li className="mb-2">Keep an 8-ounce fire extinguisher and a size “0” or larger shovel within reach in the cutting area.</li>
-                </ol>
+                </ul>
                 <p className="mb-4"><strong>Report Fires to:</strong> Bozeman Interagency Fire Dispatch Office (406)624-3830</p>
             </section>
 
             <section className="p-6 bg-gray-600 mb-6 rounded-md">
             <h2 className="text-2xl font-bold mb-4">Riparian Areas and Streams</h2>
             <p className="mb-4">
-                    The Custer Gallatin National Forest features riparian no-harvest buffers. It`&apos;`s your duty to recognize when you`&apos;`re near a stream or in a no-harvest zone. Several agencies collaborate to conserve and restore these zones. Restrict your firewood cutting to 150`&apos;` from water bodies. Trees and other vegetation play a crucial role in these areas; help us protect them.
+                    The Custer Gallatin National Forest features riparian no-harvest buffers. It&apos;s your duty to recognize when you&apos;re near a stream or in a no-harvest zone. Several agencies collaborate to conserve and restore these zones. Restrict your firewood cutting to 150&apos; from water bodies. Trees and other vegetation play a crucial role in these areas; help us protect them.
                 </p>
             </section>
 
@@ -56,7 +56,7 @@ export default function info () {
             <section className="p-6 bg-gray-600 mb-6 rounded-md">
             <h2 className="text-2xl font-bold mb-4">Whitebark Pine and Timber Sales</h2>
             <p className="mb-4">
-                    Cutting whitebark pine in the Custer Gallatin National Forest is forbidden. These trees, whether alive, dead, or fallen, are critical for both wildlife habitat and watershed protection. If uncertain about a tree`&apos;`s type, look for needles: whitebark pines have five per bundle, whereas lodgepole pines have two.
+                    Cutting whitebark pine in the Custer Gallatin National Forest is forbidden. These trees, whether alive, dead, or fallen, are critical for both wildlife habitat and watershed protection. If uncertain about a tree&apos;s type, look for needles: whitebark pines have five per bundle, whereas lodgepole pines have two.
                 </p>
                 <p className="mb-4">
                     Additionally, avoid cutting in active timber sales. The buyer owns all timber within the boundary, and cutting here is prohibited.
