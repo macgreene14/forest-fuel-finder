@@ -30,20 +30,7 @@ export default function Home() {
     // Full Screen  map icon
     // map.current.addControl(new mapboxgl.FullscreenControl(), "top-right");
 
-    // Collapsible Fly To 
-    const locations = [
-      {name: "Hebgen Lake South", lng: -111.27, lat: 44.80, zoom: 12, bearing: 150}, 
-      {name: "Hebgen Lake North", lng: -111.26, lat: 45.10, zoom: 11, bearing: 176}, 
-      {name: "Bozeman South", lng: -111.27, lat: 45.34, zoom: 11, bearing: 176}, 
-      {name: "Gallatin Canyon", lng: -111.20, lat: 45.49, zoom: 11, bearing: 176}, 
-      {name: "Hyalite Bozeman", lng: -111.01, lat: 45.52, zoom: 11, bearing: 150}, 
-      {name: "Bridgers", lng: -110.89, lat: 45.77, zoom: 11, bearing: -10}, 
-      {name: "Crazies", lng: -110.53, lat: 46.13, zoom: 11, bearing: 0},
-      {name: "Big Timber", lng: -110.14, lat: 45.49, zoom: 11, bearing: 0},
-      {name: "Main Boulder", lng: -110.16, lat: 45.37, zoom: 11, bearing: 0}]
-    const mapFlyTo = new iFly(locations);
-    map.current.addControl(mapFlyTo, "top-left");
-
+    // Collapsible Legend
     const legendItems = [
       {
         title: "Boundary",
@@ -66,6 +53,20 @@ export default function Home() {
 
     const mapLegend = new iLegend(legendItems)
     map.current.addControl(mapLegend, "top-left")
+
+    // Collapsible Fly To 
+    const locations = [
+      {name: "Hebgen Lake South", lng: -111.27, lat: 44.80, zoom: 12, bearing: 150}, 
+      {name: "Hebgen Lake North", lng: -111.26, lat: 45.10, zoom: 11, bearing: 176}, 
+      {name: "Bozeman South", lng: -111.27, lat: 45.34, zoom: 11, bearing: 176}, 
+      {name: "Gallatin Canyon", lng: -111.20, lat: 45.49, zoom: 11, bearing: 176}, 
+      {name: "Hyalite Bozeman", lng: -111.01, lat: 45.52, zoom: 11, bearing: 150}, 
+      {name: "Bridgers", lng: -110.89, lat: 45.77, zoom: 11, bearing: -10}, 
+      {name: "Crazies", lng: -110.53, lat: 46.13, zoom: 11, bearing: 0},
+      {name: "Big Timber", lng: -110.14, lat: 45.49, zoom: 11, bearing: 0},
+      {name: "Main Boulder", lng: -110.16, lat: 45.37, zoom: 11, bearing: 0}]
+    const mapFlyTo = new iFly(locations);
+    map.current.addControl(mapFlyTo, "top-left");
   }
 
   );
