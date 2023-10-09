@@ -23,7 +23,7 @@ export default class iFly {
     this._toggleButton = document.createElement("button");
     this._toggleButton.className = "mapboxgl-ctrl-icon";
     this._toggleButton.innerHTML = `
-    <svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="0.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M22 12L3 20l3.563-8L3 4l19 8zM6.5 12H22" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>    `;
+    <svg width="29px" height="29px" viewBox="0 0 24 24" stroke-width="0.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M22 12L3 20l3.563-8L3 4l19 8zM6.5 12H22" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>    `;
     this._toggleButton.onclick = () => this._toggleContent();
 
     this._content = document.createElement("div");
