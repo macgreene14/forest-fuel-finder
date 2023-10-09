@@ -18,17 +18,31 @@ export default function Home() {
     map.current = new mapboxgl.Map({
       container: mapContainer.current as HTMLDivElement,
       style: "mapbox://styles/macgreene14/cln97lyn5008b01rc3xskca5f", 
-      center: [-111.1,45.5],
-      zoom: 10.5,
-      pitch: 70,
-      bearing: 180,
-    });
+      center: [-111.00,45.43],
+      zoom: 8,
+      pitch: 0,
+      bearing: 0
+      });
+
+    map.current.addControl(
+      new mapboxgl.GeolocateControl({
+        positionOptions: {
+          enableHighAccuracy: true,
+        },
+        // When active the map will receive updates to the device's location as it changes.
+        trackUserLocation: true,
+        // Draw an arrow next to the location dot to indicate which direction the device is heading.
+        showUserHeading: true,
+        fitBoundsOptions: { maxZoom: map.current.getZoom() },
+      }),
+      "top-left",
+    );
 
     // Navigation map icon
     map.current.addControl(new mapboxgl.NavigationControl(), "bottom-right");
 
     // Full Screen  map icon
-    // map.current.addControl(new mapboxgl.FullscreenControl(), "top-right");
+    map.current.addControl(new mapboxgl.FullscreenControl(), "top-right");
 
     // Collapsible Legend
     const legendItems = [
@@ -71,9 +85,9 @@ export default function Home() {
 
   );
   return (
-    <main className="bg-gray-900 w-screen h-[90vh] sm:p-6">
-      <div ref={mapContainer} className="w-full h-full rounded-lg" ></div>
-      {/* <LogCam map={map}/> */}
+    <main className="bg-gray-900 w-screen h-[92vh] sm:p-6">
+      <div ref={mapContainer} className="w-full h-[80vh] sm:h-[88vh] rounded-lg" ></div>
+      <LogCam map={map}/>
     </main>
   )
 }
