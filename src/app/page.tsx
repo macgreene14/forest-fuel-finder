@@ -75,7 +75,7 @@ export default function Home() {
       {name: "Bozeman South", lng: -111.27, lat: 45.34, zoom: 11, bearing: 176}, 
       {name: "Gallatin Canyon", lng: -111.20, lat: 45.49, zoom: 11, bearing: 176}, 
       {name: "Hyalite Bozeman", lng: -111.01, lat: 45.52, zoom: 11, bearing: 150}, 
-      {name: "Bridgers", lng: -110.89, lat: 45.77, zoom: 11, bearing: -10}, 
+      {name: "Bridgers", lng: -110.89, lat: 45.77, zoom: 11, bearing: 0}, 
       {name: "Crazies", lng: -110.53, lat: 46.13, zoom: 11, bearing: 0},
       {name: "Big Timber", lng: -110.14, lat: 45.49, zoom: 11, bearing: 0},
       {name: "Main Boulder", lng: -110.16, lat: 45.37, zoom: 11, bearing: 0}]
