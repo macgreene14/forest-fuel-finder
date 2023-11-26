@@ -16,10 +16,6 @@ The **Forest Fuel Finder** web app is a tool that allows users to view USDA rast
 - **Mapbox**: A mapping platform for customizing maps and location-based features.
 - **USDA Raster Maps**: Integration with USDA raster map data sources.
 
-### Configuration
-
-- You will need to configure Mapbox API keys in the .env file.
-
 ## Deployment
 
 Deploy the app to your preferred hosting platform, such as Vercel, Netlify, or a custom server.
