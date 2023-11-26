@@ -1,6 +1,6 @@
 # Forest Fuel Finder Web App
 
-The **Forest Fuel Finder** web app is a tool that allows users to view USDA raster maps related to forest fuel levels and conditions on a Mapbox map. This app is built with Next.js and styled with Tailwind CSS. The deployed application is hosted at https://forest-fuel-finder.vercel.app/. 
+The **Forest Fuel Finder** web app is a tool that allows users to view USDA raster maps related to forest fuel collection areas around Bozeman, MT on a Mapbox map. This app is built with Next.js and styled with Tailwind CSS. The deployed application is hosted at https://forest-fuel-finder.vercel.app/. 
 
 ## Features
 
